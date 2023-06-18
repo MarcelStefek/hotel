@@ -8,7 +8,7 @@ public class Strava {
 
     }
 
-    int cena = 250;
+    int cena;
    String jidlo;
 
 }

@@ -17,7 +17,8 @@ public class Main {
         Rezervace rez2 = new Rezervace(pokoj2, host2, stravaPlna,"1.1.2001", "14.1.2001", 10, 14, pokoj2.cena);
         rez2.VypisRezervaci();
 
-        Rezervace rez3 = new Rezervace(pokoj3, host3,stravaPlna, "1.1.2001", "14.1.2001", 10, 14, pokoj3.cena);
+        Strava stravaPolo = new Strava(150, "Polo Penze");
+        Rezervace rez3 = new Rezervace(pokoj3, host3,stravaPolo, "1.1.2001", "14.1.2001", 10, 14, pokoj3.cena);
         rez3.VypisRezervaci();
 
 
